@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PTc-Rz-Ib4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="PTc-Rz-Ib4">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -36,7 +36,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">自英雄內戰後，復仇者聯盟分崩離析，「美國隊長」史蒂芬·羅傑斯劫獄救出山姆等反對派成員，各奔東西。但與此同時，宇宙中一股潛伏已久的黑暗威脅逼近，來自泰坦星的薩諾斯與手下「薩諾斯之子」大肆掃蕩全宇宙，襲擊了阿斯嘉移民的飛船，企圖奪得宇宙間最強大的六顆「無限寶石」。索爾遭到薩諾斯襲擊陷入昏迷，在宇宙間遇上了銀河系的守護者「星際異攻隊」。隨著薩諾斯的威脅一步步向地球逼近，目睹薩諾斯襲擊的「浩克」墜落至紐約「至聖所」，尋求掌管超自然能量的至尊魔法師「奇異博士」史蒂芬·史傳奇相助。在美國境內僅剩的復仇者成員「鋼鐵人」東尼·史塔克也被迫獨自奮戰，並提供自己的門生「蜘蛛人」彼得·帕克升級版鋼鐵蜘蛛裝。另一邊，位於東非的高科技國家「瓦干達」才剛對外公開多年來高科技的秘辛，卻也將迎來宇宙最大的威脅。眼看危機四伏，復仇者聯盟能否重拾當初的信任，共同迎戰宇宙最強大的超級反派薩諾斯？</mutableString>
+                                        <string key="content">自英雄內戰後，復仇者聯盟分崩離析，「美國隊長」史蒂芬·羅傑斯劫獄救出山姆等反對派成員，各奔東西。但與此同時，宇宙中一股潛伏已久的黑暗威脅逼近，來自泰坦星的薩諾斯與手下「薩諾斯之子」大肆掃蕩全宇宙，襲擊了阿斯嘉移民的飛船，企圖奪得宇宙間最強大的六顆「無限寶石」。索爾遭到薩諾斯襲擊陷入昏迷，在宇宙間遇上了銀河系的守護者「星際異攻隊」。隨著薩諾斯的威脅一步步向地球逼近，目睹薩諾斯襲擊的「浩克」墜落至紐約「至聖所」，尋求掌管超自然能量的至尊魔法師「奇異博士」史蒂芬·史傳奇相助。在美國境內僅剩的復仇者成員「鋼鐵人」東尼·史塔克也被迫獨自奮戰，並提供自己的門生「蜘蛛人」彼得·帕克升級版鋼鐵蜘蛛裝。另一邊，位於東非的高科技國家「瓦干達」才剛對外公開多年來高科技的秘辛，卻也將迎來宇宙最大的威脅。眼看危機四伏，復仇者聯盟能否重拾當初的信任，共同迎戰宇宙最強大的超級反派薩諾斯？</string>
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="15" name="PingFangTC-Semibold"/>

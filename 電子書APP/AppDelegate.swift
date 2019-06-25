@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  電子書APP
 //
-//  Created by Zonghan on 2018/4/6.
-//  Copyright © 2018年 Zonghan. All rights reserved.
+//  Created by Chiu on 2019/6/22.
+//  Copyright © 2019年 Chiu. All rights reserved.
 //
 
 import UIKit
