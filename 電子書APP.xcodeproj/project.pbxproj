@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0CC1DF207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1DE207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf */; };
+		DC0CC1E1207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1E0207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf */; };
+		DC0CC1E4207A4BA500175561 /* setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1E2207A490500175561 /* setofont.ttf */; };
+		DC0CC1E6207A4F3C00175561 /* setofont-ex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC0CC1E5207A4F3C00175561 /* setofont-ex.ttf */; };
+		DC440B1420779ED400D54CB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B1320779ED400D54CB2 /* AppDelegate.swift */; };
+		DC440B1620779ED400D54CB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B1520779ED400D54CB2 /* ViewController.swift */; };
+		DC440B1920779ED400D54CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC440B1720779ED400D54CB2 /* Main.storyboard */; };
+		DC440B1B20779ED400D54CB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC440B1A20779ED400D54CB2 /* Assets.xcassets */; };
+		DC440B1E20779ED400D54CB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC440B1C20779ED400D54CB2 /* LaunchScreen.storyboard */; };
+		DC440B2920779ED400D54CB2 /* ___APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B2820779ED400D54CB2 /* ___APPTests.swift */; };
+		DC440B3420779ED400D54CB2 /* ___APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC440B3320779ED400D54CB2 /* ___APPUITests.swift */; };
+		DC8A5114207BB04A00A3AC94 /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC8A5113207BB04A00A3AC94 /* Music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC440B2520779ED400D54CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC440B0820779ED400D54CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC440B0F20779ED400D54CB2;
+			remoteInfo = "電子書APP";
+		};
+		DC440B3020779ED400D54CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC440B0820779ED400D54CB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC440B0F20779ED400D54CB2;
+			remoteInfo = "電子書APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0CC1DE207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AsobiMemogaki-Regular-1-01.ttf"; sourceTree = "<group>"; };
+		DC0CC1E0207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShigotoMemogaki-Regular-1-01.ttf"; sourceTree = "<group>"; };
+		DC0CC1E2207A490500175561 /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
+		DC0CC1E5207A4F3C00175561 /* setofont-ex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "setofont-ex.ttf"; sourceTree = "<group>"; };
+		DC440B1020779ED400D54CB2 /* 電子書APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "電子書APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC440B1320779ED400D54CB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC440B1520779ED400D54CB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC440B1820779ED400D54CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC440B1A20779ED400D54CB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC440B1D20779ED400D54CB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC440B1F20779ED400D54CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC440B2420779ED400D54CB2 /* 電子書APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "電子書APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC440B2820779ED400D54CB2 /* ___APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___APPTests.swift"; sourceTree = "<group>"; };
+		DC440B2A20779ED400D54CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC440B2F20779ED400D54CB2 /* 電子書APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "電子書APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC440B3320779ED400D54CB2 /* ___APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___APPUITests.swift"; sourceTree = "<group>"; };
+		DC440B3520779ED400D54CB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8A5113207BB04A00A3AC94 /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC440B0D20779ED400D54CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC440B2120779ED400D54CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC440B2C20779ED400D54CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC440B0720779ED400D54CB2 = {
+			isa = PBXGroup;
+			children = (
+				DC440B1220779ED400D54CB2 /* 電子書APP */,
+				DC440B2720779ED400D54CB2 /* 電子書APPTests */,
+				DC440B3220779ED400D54CB2 /* 電子書APPUITests */,
+				DC440B1120779ED400D54CB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC440B1120779ED400D54CB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC440B1020779ED400D54CB2 /* 電子書APP.app */,
+				DC440B2420779ED400D54CB2 /* 電子書APPTests.xctest */,
+				DC440B2F20779ED400D54CB2 /* 電子書APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC440B1220779ED400D54CB2 /* 電子書APP */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A5113207BB04A00A3AC94 /* Music.mp3 */,
+				DC0CC1E5207A4F3C00175561 /* setofont-ex.ttf */,
+				DC0CC1E2207A490500175561 /* setofont.ttf */,
+				DC0CC1E0207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf */,
+				DC0CC1DE207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf */,
+				DC440B1320779ED400D54CB2 /* AppDelegate.swift */,
+				DC440B1520779ED400D54CB2 /* ViewController.swift */,
+				DC440B1720779ED400D54CB2 /* Main.storyboard */,
+				DC440B1A20779ED400D54CB2 /* Assets.xcassets */,
+				DC440B1C20779ED400D54CB2 /* LaunchScreen.storyboard */,
+				DC440B1F20779ED400D54CB2 /* Info.plist */,
+			);
+			path = "電子書APP";
+			sourceTree = "<group>";
+		};
+		DC440B2720779ED400D54CB2 /* 電子書APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC440B2820779ED400D54CB2 /* ___APPTests.swift */,
+				DC440B2A20779ED400D54CB2 /* Info.plist */,
+			);
+			path = "電子書APPTests";
+			sourceTree = "<group>";
+		};
+		DC440B3220779ED400D54CB2 /* 電子書APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC440B3320779ED400D54CB2 /* ___APPUITests.swift */,
+				DC440B3520779ED400D54CB2 /* Info.plist */,
+			);
+			path = "電子書APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC440B0F20779ED400D54CB2 /* 電子書APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC440B3820779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APP" */;
+			buildPhases = (
+				DC440B0C20779ED400D54CB2 /* Sources */,
+				DC440B0D20779ED400D54CB2 /* Frameworks */,
+				DC440B0E20779ED400D54CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "電子書APP";
+			productName = "電子書APP";
+			productReference = DC440B1020779ED400D54CB2 /* 電子書APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC440B2320779ED400D54CB2 /* 電子書APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC440B3B20779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APPTests" */;
+			buildPhases = (
+				DC440B2020779ED400D54CB2 /* Sources */,
+				DC440B2120779ED400D54CB2 /* Frameworks */,
+				DC440B2220779ED400D54CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC440B2620779ED400D54CB2 /* PBXTargetDependency */,
+			);
+			name = "電子書APPTests";
+			productName = "電子書APPTests";
+			productReference = DC440B2420779ED400D54CB2 /* 電子書APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC440B2E20779ED400D54CB2 /* 電子書APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC440B3E20779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APPUITests" */;
+			buildPhases = (
+				DC440B2B20779ED400D54CB2 /* Sources */,
+				DC440B2C20779ED400D54CB2 /* Frameworks */,
+				DC440B2D20779ED400D54CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC440B3120779ED400D54CB2 /* PBXTargetDependency */,
+			);
+			name = "電子書APPUITests";
+			productName = "電子書APPUITests";
+			productReference = DC440B2F20779ED400D54CB2 /* 電子書APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC440B0820779ED400D54CB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Zonghan;
+				TargetAttributes = {
+					DC440B0F20779ED400D54CB2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					DC440B2320779ED400D54CB2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC440B0F20779ED400D54CB2;
+					};
+					DC440B2E20779ED400D54CB2 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC440B0F20779ED400D54CB2;
+					};
+				};
+			};
+			buildConfigurationList = DC440B0B20779ED400D54CB2 /* Build configuration list for PBXProject "電子書APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC440B0720779ED400D54CB2;
+			productRefGroup = DC440B1120779ED400D54CB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC440B0F20779ED400D54CB2 /* 電子書APP */,
+				DC440B2320779ED400D54CB2 /* 電子書APPTests */,
+				DC440B2E20779ED400D54CB2 /* 電子書APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC440B0E20779ED400D54CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0CC1E4207A4BA500175561 /* setofont.ttf in Resources */,
+				DC0CC1E6207A4F3C00175561 /* setofont-ex.ttf in Resources */,
+				DC440B1E20779ED400D54CB2 /* LaunchScreen.storyboard in Resources */,
+				DC0CC1DF207A453D00175561 /* AsobiMemogaki-Regular-1-01.ttf in Resources */,
+				DC0CC1E1207A475800175561 /* ShigotoMemogaki-Regular-1-01.ttf in Resources */,
+				DC440B1B20779ED400D54CB2 /* Assets.xcassets in Resources */,
+				DC440B1920779ED400D54CB2 /* Main.storyboard in Resources */,
+				DC8A5114207BB04A00A3AC94 /* Music.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC440B2220779ED400D54CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC440B2D20779ED400D54CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC440B0C20779ED400D54CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC440B1620779ED400D54CB2 /* ViewController.swift in Sources */,
+				DC440B1420779ED400D54CB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC440B2020779ED400D54CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC440B2920779ED400D54CB2 /* ___APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC440B2B20779ED400D54CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC440B3420779ED400D54CB2 /* ___APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC440B2620779ED400D54CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC440B0F20779ED400D54CB2 /* 電子書APP */;
+			targetProxy = DC440B2520779ED400D54CB2 /* PBXContainerItemProxy */;
+		};
+		DC440B3120779ED400D54CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC440B0F20779ED400D54CB2 /* 電子書APP */;
+			targetProxy = DC440B3020779ED400D54CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC440B1720779ED400D54CB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC440B1820779ED400D54CB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC440B1C20779ED400D54CB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC440B1D20779ED400D54CB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC440B3620779ED400D54CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC440B3720779ED400D54CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC440B3920779ED400D54CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "電子書APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC440B3A20779ED400D54CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "電子書APP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC440B3C20779ED400D54CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "電子書APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/電子書APP.app/電子書APP";
+			};
+			name = Debug;
+		};
+		DC440B3D20779ED400D54CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "電子書APPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/電子書APP.app/電子書APP";
+			};
+			name = Release;
+		};
+		DC440B3F20779ED400D54CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "電子書APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "電子書APP";
+			};
+			name = Debug;
+		};
+		DC440B4020779ED400D54CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "電子書APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zonghan.---APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "電子書APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC440B0B20779ED400D54CB2 /* Build configuration list for PBXProject "電子書APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC440B3620779ED400D54CB2 /* Debug */,
+				DC440B3720779ED400D54CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC440B3820779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC440B3920779ED400D54CB2 /* Debug */,
+				DC440B3A20779ED400D54CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC440B3B20779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC440B3C20779ED400D54CB2 /* Debug */,
+				DC440B3D20779ED400D54CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC440B3E20779ED400D54CB2 /* Build configuration list for PBXNativeTarget "電子書APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC440B3F20779ED400D54CB2 /* Debug */,
+				DC440B4020779ED400D54CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC440B0820779ED400D54CB2 /* Project object */;
+}
